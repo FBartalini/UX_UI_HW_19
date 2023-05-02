@@ -159,7 +159,12 @@ button:hover{
   text-align: center;
       }
       
-      #toggle, #toggle2:hover{
+      #toggle:hover{
+        background-color: antiquewhite;
+        color: #002500;
+      }
+
+      #toggle2:hover{
         background-color: antiquewhite;
         color: #002500;
       }
