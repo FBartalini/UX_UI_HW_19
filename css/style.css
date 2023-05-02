@@ -1,0 +1,179 @@
+.flexContainer {
+    display:flex;
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas: "arrow";
+}
+
+img{
+ margin-top: 25px;
+    
+    
+}
+h3{
+    width: 33%;
+    align-items: top;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    width: 70%;
+    align-items: center;
+    margin-right: 100px;
+    text-align: justify;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Skills{
+  margin-left: 5%;
+  justify-content: end;
+ min-width: 72px;
+    
+}
+
+  
+.box1{
+  height: 30px;
+  width: 50px;
+  background-color: #FF9E61;
+}
+button{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FF9E61;
+    grid-area: hover;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+ 
+
+}
+button:hover{
+    background-color:#002500 ;
+   box-shadow: #002500 0px 3px 3px 0px;
+  box-shadow: opacity 30%;
+  text-decoration: underline;
+  text-transform: uppercase;
+  
+    
+}
+.cra{
+    width: 50%;
+}
+.cf{
+    width: 20%;
+    align-items:left;
+    margin-left: 15%;
+}
+.workGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.myWork{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.arrow {
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    grid-area: arrow;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 15%;
+    
+  
+
+   
+
+    
+  }
+  .bounceMe{
+    animation: bounceArrow .7s infinite;
+    width: 24px;
+    height: 24px;
+  }
+@media  only screen and (max-width:600px) {
+ .flexContainer{
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "icon"
+      "h3"
+      "p"
+      ;}}
+
+      @keyframes bounceArrow {
+        from {
+          transform: translateY(0);
+        }
+      
+        to {
+          transform: translateY(5px);
+        }
+      }
+
+      .container {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 22px;
+        font-family: "Open Sans", helvetica, sans-serif;
+
+      }
+      #dropDown, #dropDown2 {
+        display: none;
+        padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 150px;
+  
+      }
+      #toggle, #toggle2 {
+         padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FF9E61;
+    grid-area: hover;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  transition: 0.3s;
+  text-align: center;
+      }
+      
+      #toggle, #toggle2:hover{
+        background-color: antiquewhite;
+        color: #002500;
+      }
+      ul {
+        margin:0;
+        padding: 0;
+        list-style-type:none;
+      }
+      li {
+        margin:0;
+        padding: 15px;
+        border: 1px solid black;
+      }
+      img {
+        width: 18px;
+      }
+      
